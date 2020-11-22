@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_drawer"
+            android:icon="@drawable/phone"
+            android:title="Home" />
+        <item
+            android:id="@+id/editarPerfil_drawer1"
+            android:icon="@drawable/user"
+            android:title="@string/ver_perfil" />
+        <item
+            android:id="@+id/cerrarSesion"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/cerrar_sesion" />
+        <item
+            android:id="@+id/privacidad"
+            android:icon="@drawable/user"
+            android:title="@string/nosotros" />
+    </group>
+    <group android:id="@+id/group_menu">
+        <item android:id="@+id/nav_item_four"
+            android:title="Ayuda" />
+        <item android:id="@+id/nav_item_five"
+            android:title="" />
+    </group>
+
+</menu>
